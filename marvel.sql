@@ -69,6 +69,8 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 SELECT * FROM movies;
 
 -- We forgot one of the main characters! Add Bart Simpson to the 'people' table
+INSERT INTO people (name) VALUES ('Bart Simpson');
+SELECT * FROM people
 
 
 -- Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
