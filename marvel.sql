@@ -70,11 +70,12 @@ SELECT * FROM movies;
 
 -- We forgot one of the main characters! Add Bart Simpson to the 'people' table
 INSERT INTO people (name) VALUES ('Bart Simpson');
-SELECT * FROM people
+SELECT * FROM people;
 
 
 -- Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
-
+DELETE FROM people WHERE name = 'Eric Cartman';
+SELECT * FROM people;
 
 -- The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
 
